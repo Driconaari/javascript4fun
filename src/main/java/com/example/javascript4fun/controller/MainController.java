@@ -13,4 +13,12 @@ public class MainController {
         model.addAttribute("message", "Welcome to Spring Boot and Thymeleaf!");
         return "index";
     }
+
+
+    @GetMapping("play-with-sand")
+    public String playWithSand(Model model) {
+        return "play-with-sand";
+    }
 }
+
+
