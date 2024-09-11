@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Spring Boot with Thymeleaf and JavaScript</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+    <script th:src="@{/js/script.js}"></script>
+</head>
+<body>
+<h1>Spring Boot + Thymeleaf + JavaScript</h1>
+
+<div>
+    <label for="nameInput">Enter your name:</label>
+    <input type="text" id="nameInput" placeholder="Your name">
+    <button onclick="displayGreeting()">Greet</button>
+</div>
+
+<p id="greetingMessage"></p>
+
+<div>
+    <p th:text="'Dynamic message from server: ' + ${message}"></p>
+</div>
+</body>
+</html>
