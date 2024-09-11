@@ -19,6 +19,11 @@ public class MainController {
     public String playWithSand(Model model) {
         return "play-with-sand";
     }
+
+    @GetMapping("starship")
+    public String starship(Model model) {
+        return "starship-game";
+    }
 }
 
 
