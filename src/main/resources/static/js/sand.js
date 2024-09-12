@@ -3,8 +3,8 @@ const canvas = document.getElementById("sandCanvas");
 const ctx = canvas.getContext("2d");
 
 // Set canvas dimensions
-canvas.width = 500;
-canvas.height = 500;
+canvas.width = 700;
+canvas.height = 700;
 
 // Define grid size
 const pixelSize = 5;  // Size of each sand particle
