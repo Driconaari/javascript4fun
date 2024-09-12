@@ -9,7 +9,7 @@ const obstacleSize = 30;
 const bulletSize = 10;
 const starSpeed = 1;
 const obstacleSpeed = 3;
-const starshipSpeed = 10; // Increased speed
+const starshipSpeed = 10    ; // Increased speed
 const bulletSpeed = 5;
 
 let starship = {
